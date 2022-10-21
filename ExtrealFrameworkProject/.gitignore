@@ -9,6 +9,9 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/[Uu]serSettings/
+/[Cc]odeCoverage/
+
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -21,6 +24,7 @@
 
 # Visual Studio cache directory
 .vs/
+.vscode/
 
 # Gradle cache directory
 .gradle/
@@ -58,14 +62,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-# Unity's directories that doesn't need to be shared
-ExtrealFrameworkProject/Library/
-ExtrealFrameworkProject/Logs/
-ExtrealFrameworkProject/Temp/
-ExtrealFrameworkProject/UserSettings/
+# locked package file
+/Packages/packages-lock.json
 
 # Extreal framework directory
-ExtrealFrameworkProject/Packages/Extreal.*/
-
-# CodeCoverage directory
-ExtrealFrameworkProject/CodeCoverage/
+/Packages/Extreal.*/
