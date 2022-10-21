@@ -6,7 +6,7 @@
 ## ローカル開発
 
 1. この Git リポジトリをローカルにクローンします
-1. `ExtrealFrameworkProject/Packages` ディレクトリ以下に開発したいモジュールの Git リポジトリをクローンします
+1. `Packages` ディレクトリ以下に開発したいモジュールの Git リポジトリをクローンします
 1. Unity Editor を開いて `Packages/Extreal.*/Runtime/Extreal.*.asmdef` を選択し、Inspector の中の `Assembly Definition References` に `Extreal.Framework.Analyzer` を追加します（ただし * はモジュール名に対応）
 
 以上でセットアップは終了です。

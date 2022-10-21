@@ -12,6 +12,7 @@
         "scenetransition",
         "Scriptable",
         "Transitioner",
+        "typeparam",
         "unitask"
     ],
 }
