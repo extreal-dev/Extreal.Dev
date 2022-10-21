@@ -66,3 +66,6 @@ crashlytics-build.properties
 
 # Extreal framework directory
 /Packages/Extreal.*/
+
+# Rider
+.idea
