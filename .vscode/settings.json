@@ -1,0 +1,17 @@
+{
+    "[csharp]": {
+        "editor.defaultFormatter": "ms-dotnettools.csharp",
+        "editor.formatOnSave": true,
+    },
+    "omnisharp.enableRoslynAnalyzers": true,
+    "cSpell.words": [
+        "asmdef",
+        "Behaviour",
+        "cysharp",
+        "Extreal",
+        "scenetransition",
+        "Scriptable",
+        "Transitioner",
+        "unitask"
+    ],
+}

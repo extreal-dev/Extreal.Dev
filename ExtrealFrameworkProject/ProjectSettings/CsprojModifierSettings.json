@@ -1,0 +1,1 @@
+{"AdditionalImports":[{"Path":"PublicAPI.props","Position":0}],"AdditionalImportsAdditionalProjects":["Extreal.Core.Logging.csproj"],"EnableAddAnalyzerReferences":false,"AddAnalyzerReferencesAdditionalProjects":["Extreal.Core.Logging.csproj"]}
