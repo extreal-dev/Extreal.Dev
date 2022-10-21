@@ -9,6 +9,8 @@
         "Behaviour",
         "cysharp",
         "Extreal",
+        "nunit",
+        "resourceprovider",
         "scenetransition",
         "Scriptable",
         "Transitioner",
