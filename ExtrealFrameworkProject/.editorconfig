@@ -153,7 +153,8 @@ dotnet_diagnostic.IDE0073.severity = warning
 # file_header_template = Licensed to the .NET Foundation under one or more agreements.\nThe .NET Foundation licenses this file to you under the MIT license.\nSee the LICENSE file in the project root for more information.
 
 # IDE0035: Remove unreachable code
-dotnet_diagnostic.IDE0035.severity = none
+dotnet_diagnostic.IDE0035.severity = warning
+# dotnet_diagnostic.IDE0035.severity = none
 
 # IDE0036: Order modifiers
 dotnet_diagnostic.IDE0036.severity = warning
@@ -167,7 +168,7 @@ dotnet_style_readonly_field = false
 
 # CONSIDER: Are IDE0051 and IDE0052 too noisy to be warnings for IDE editing scenarios? Should they be made build-only warnings?
 # IDE0051: Remove unused private member
-dotnet_diagnostic.IDE0051.severity = none
+dotnet_diagnostic.IDE0051.severity = warning
 
 # IDE0170: Prefer extended property pattern
 dotnet_diagnostic.IDE0170.severity = warning
@@ -309,7 +310,7 @@ dotnet_diagnostic.CC0034.severity = none
 # CC0037: Remove unnecessary comment
 dotnet_diagnostic.CC0037.severity = none
 # CC0052: Make field readonly
-dotnet_diagnostic.CC0052.severity = none
+# dotnet_diagnostic.CC0052.severity = none
 # CC0072: Remove 'Async' from method not return 'Task'
 dotnet_diagnostic.CC0072.severity = none
 # CC0091: Make method static
