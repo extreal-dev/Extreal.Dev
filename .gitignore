@@ -58,5 +58,14 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Unity's directories that doesn't need to be shared
+ExtrealFrameworkProject/Library/
+ExtrealFrameworkProject/Logs/
+ExtrealFrameworkProject/Temp/
+ExtrealFrameworkProject/UserSettings/
+
+# Extreal framework directory
+ExtrealFrameworkProject/Packages/Extreal.*/
+
 # CodeCoverage directory
 ExtrealFrameworkProject/CodeCoverage/
