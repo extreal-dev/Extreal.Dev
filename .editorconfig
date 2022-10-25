@@ -417,10 +417,14 @@ dotnet_naming_rule.parameters_rule.severity             = warning
 # Disable
 # Ordering member inside this type.
 dotnet_diagnostic.CC0035.severity = none
-# Consider remove 'Async' from method XxxxxAsync.
-dotnet_diagnostic.CC0072.severity = none
+# Make it a for loop that increment/decrement the counter.
+dotnet_diagnostic.CC0042.severity = none
 # Change to regular string
 dotnet_diagnostic.CC0045.severity = none
+# Consider remove 'Async' from method XxxxxAsync.
+dotnet_diagnostic.CC0072.severity = none
+# You may change 0 to a hexadecimal literal type.
+dotnet_diagnostic.CC0079.severity = none
 
 ##########################################
 # License
