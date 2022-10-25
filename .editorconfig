@@ -415,16 +415,23 @@ dotnet_naming_rule.parameters_rule.style                = camel_case_style
 dotnet_naming_rule.parameters_rule.severity             = warning
 
 # Disable
+# Make field readonly
+dotnet_diagnostic.IDE0044.severity = none
+# Simplify 'new' expression
+dotnet_diagnostic.IDE0090.severity = none
 # Ordering member inside this type.
 dotnet_diagnostic.CC0035.severity = none
 # Make it a for loop that increment/decrement the counter.
 dotnet_diagnostic.CC0042.severity = none
 # Change to regular string
 dotnet_diagnostic.CC0045.severity = none
-# Consider remove 'Async' from method XxxxxAsync.
+# Introduce a field for parameter
+dotnet_diagnostic.CC0071.severity = none
+# Remove 'Async' from method name that doesn't return 'Task'.
 dotnet_diagnostic.CC0072.severity = none
 # You may change 0 to a hexadecimal literal type.
 dotnet_diagnostic.CC0079.severity = none
+
 
 ##########################################
 # License
