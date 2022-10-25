@@ -1,23 +1,14 @@
 # Extreal.Dev
 
-このユニティプロジェクトは Extreal のフレームワーク開発用です。
-静的解析が導入されています。
+This is the Unity project to develop Extreal modules.
 
-## ローカル開発
+## Local Development
 
-1. この Git リポジトリをローカルにクローンします
-1. `Packages` ディレクトリ以下に開発したいモジュールの Git リポジトリをクローンします
-1. Unity Editor を開いて `Packages/Extreal.*/Runtime/Extreal.*.asmdef` を選択し、Inspector の中の `Assembly Definition References` に `Extreal.Framework.Analyzer` を追加します（ただし * はモジュール名に対応）
+1. Clone this git repository.
+1. Clone the Extreal module you want to develop into the `Packages` directory.
+1. Open the Unity Editor and select `Packages/Extreal.*/Runtime/Extreal.*.asmdef`.
+1. Add `Extreal.Framework.Analyzer` to Inspector's `Assembly Definition References`(where * corresponds to the module name).
 
-以上でセットアップは終了です。
+## Contributing
 
-## コントリビュータへ
-
-フレームワークの各モジュールにコントリビュートするときは `develop` ブランチから新たなブランチを切ってください。
-
-<ブランチ名の例>
-
-- 機能を追加するとき
-  - feature/<機能名>
-- バグ修正をするとき
-  - bugfix/<バグの概略>
+See [Feedback or Contribution](https://extreal-dev.github.io/Extreal.Guide/intro#feedback-or-contribution)
