@@ -414,9 +414,13 @@ dotnet_naming_rule.parameters_rule.symbols              = parameters_group
 dotnet_naming_rule.parameters_rule.style                = camel_case_style
 dotnet_naming_rule.parameters_rule.severity             = warning
 
-# Disabled
+# Disable
+# Ordering member inside this type.
 dotnet_diagnostic.CC0035.severity = none
+# Consider remove 'Async' from method XxxxxAsync.
 dotnet_diagnostic.CC0072.severity = none
+# Change to regular string
+dotnet_diagnostic.CC0045.severity = none
 
 ##########################################
 # License
