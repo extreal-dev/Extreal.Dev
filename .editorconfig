@@ -416,6 +416,7 @@ dotnet_naming_rule.parameters_rule.severity             = warning
 
 # Disabled
 dotnet_diagnostic.CC0035.severity = none
+dotnet_diagnostic.CC0072.severity = none
 
 ##########################################
 # License
