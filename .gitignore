@@ -69,3 +69,7 @@ crashlytics-build.properties
 
 # Rider
 .idea
+
+# Sample
+/Assets/Samples/
+/Assets/Samples.meta
