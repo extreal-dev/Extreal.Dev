@@ -1,6 +1,6 @@
 {
     "name": "Extreal.Framework.Analyzer",
-    "rootNamespace": "Extreal.Analyzer",
+    "rootNamespace": "Extreal.Framework.Analyzer",
     "references": [],
     "includePlatforms": [
         "Editor"
