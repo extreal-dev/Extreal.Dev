@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Default RuleSet" Description="This is a default rule set:)" ToolsVersion="14.0">
+  <Rules AnalyzerId="CodeCracker.Cysharp" RuleNamespace="CodeCracker.Cysharp">
+  </Rules>
+</RuleSet>
