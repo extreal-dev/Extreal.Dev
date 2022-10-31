@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RuleSet Name="Default RuleSet" Description="This is a default ruleset:)" ToolsVersion="14.0">
-  <Rules AnalyzerId="CodeCracker.CSharp" RuleNamespace="CodeCracker.CSharp">
-    <Rule Id="CC0091" Action="None" />
-  </Rules>
-</RuleSet>

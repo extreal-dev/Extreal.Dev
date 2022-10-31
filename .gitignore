@@ -73,3 +73,6 @@ crashlytics-build.properties
 # Sample
 /Assets/Samples/
 /Assets/Samples.meta
+
+# Settings of CodeCoverage
+/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
