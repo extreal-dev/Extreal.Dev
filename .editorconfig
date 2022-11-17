@@ -419,12 +419,12 @@ dotnet_naming_rule.parameters_rule.style                = camel_case_style
 dotnet_naming_rule.parameters_rule.severity             = warning
 
 # Disable
+# Simplify 'null' check.
+dotnet_diagnostic.IDE0016.severity = none
 # Make field readonly.
 dotnet_diagnostic.IDE0044.severity = none
 # Remove member that is never used.
 dotnet_diagnostic.IDE0051.severity = none
-# Move using directory into the namespace.
-# dotnet_diagnostic.IDE0065.severity = none
 # Simplify 'new' expression.
 dotnet_diagnostic.IDE0090.severity = none
 # FastBufferWriter should be disposed.
