@@ -427,6 +427,8 @@ dotnet_diagnostic.IDE0044.severity = none
 dotnet_diagnostic.IDE0051.severity = none
 # Simplify 'new' expression.
 dotnet_diagnostic.IDE0090.severity = none
+# Use 'switch' instead of 'if'
+dotnet_diagnostic.CC0019.severity = none
 # FastBufferWriter should be disposed.
 dotnet_diagnostic.CC0022.severity = none
 # Ordering member inside this type.
