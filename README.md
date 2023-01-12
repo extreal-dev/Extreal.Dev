@@ -6,8 +6,12 @@ This is the Unity project to develop Extreal modules.
 
 1. Clone this git repository.
 1. Clone the Extreal module you want to develop into the `Packages` directory.
+    - Install `Extreal.Core.Logging` package from Package Manager if your development environment does not have it.
 1. Open the Unity Editor and select `Packages/Extreal.*/Runtime/Extreal.*.asmdef`.
 1. Add `Extreal.Framework.Analyzer` to Inspector's `Assembly Definition References`(where * corresponds to the module name).
+1. Open the window of `Test Runner` and `Code Coverage`.
+    - Test Runner: `Window` > `General` > `Test Runner`
+    - Code Coverage: `Window` > `Analysis` > `Code Coverage`
 
 ## How to Contribute
 
