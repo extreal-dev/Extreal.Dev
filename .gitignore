@@ -76,3 +76,9 @@ crashlytics-build.properties
 
 # Settings of CodeCoverage
 /ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
+
+# NuGet importer
+/[Aa]ssets/[Pp]ackages.meta
+/[Aa]ssets/[Pp]ackages/
+/[Nn]u[Gg]et/
+/[Pp]ackages/*/
