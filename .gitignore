@@ -82,3 +82,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Pp]ackages/
 /[Nn]u[Gg]et/
 /[Pp]ackages/*/
+
+# WebGL
+/WebGLBuild/Dev
