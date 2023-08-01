@@ -1,6 +1,0 @@
-<linker>
-  <assembly fullname="UnityEngine">
-    <type fullname="UnityEngine.Joint2D" preserve="all" />
-  </assembly>
-  <assembly fullname="Extreal.Core.StageNavigation" preserve="all" />
-</linker>
