@@ -13,6 +13,12 @@
             ]
         },
         {
+            "packageName": "Newtonsoft.Json",
+            "fileNames": [
+                "Newtonsoft.Json"
+            ]
+        },
+        {
             "packageName": "System.Text.Json",
             "fileNames": [
                 "System.Text.Json"
