@@ -85,3 +85,4 @@ crashlytics-build.properties
 
 # WebGL
 /WebGLBuild/Dev
+/Assets/WebGLTemplates/Dev/index.js*
